@@ -1,0 +1,18 @@
+{
+  "CH": {
+    "American special line small bag Contain electricity": {
+      "American": [
+        {
+          "weight": [0,0.1],
+          "shipping_cost": 84,
+          "extra_charge": 19
+        },
+        {
+          "weight": [0.101,0.2],
+          "shipping_cost": 84,
+          "extra_charge": 19
+        }
+      ]
+    }
+  }
+}
