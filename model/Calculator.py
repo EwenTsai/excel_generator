@@ -4,6 +4,12 @@ def match_weight(shipping_list, weight):
             return shipping
 
 
+def match_country(channel_list, country):
+    for channel_country in channel_list:
+        if channel_country == country:
+            return channel_country
+
+
 # 根据重量的不同，运费加额外费用算法
 def calculate_1(data_dict, input_data):
     if input_data['channel'] is not None:

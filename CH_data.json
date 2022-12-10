@@ -262,9 +262,103 @@
                 ],
                 "shipping_cost": 80,
                 "extra_charge": 22
+            },
+            {
+                "weight_range": [
+                    0.251,
+                    0.5
+                ],
+                "shipping_cost": 93,
+                "extra_charge": 24
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 23
+            },
+            {
+                "weight_range": [
+                    2.001,
+                    20
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 20
+            }
+        ],
+        "Brazilian": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 101,
+                "extra_charge": 31
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 105,
+                "extra_charge": 31
+            },
+            {
+                "weight_range": [
+                    2.001,
+                    20
+                ],
+                "shipping_cost": 105,
+                "extra_charge": 29
+            }
+        ],
+        "Mexico": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 85,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    30
+                ],
+                "shipping_cost": 91,
+                "extra_charge": 21
+            }
+        ],
+        "Portugal":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 21
+            }
+        ],
+        "Finland":[
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 30
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    10
+                ],
+                "shipping_cost": 91,
+                "extra_charge": 30
             }
         ]
     }
 }
-
-          
