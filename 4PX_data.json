@@ -1,0 +1,52 @@
+{
+    "PY": {
+        "American": [
+            {
+                "weight_range": [
+                    0,
+                    0.1
+                ],
+                "shipping_cost": 118,
+                "extra_charge": 25
+            },
+            {
+                "weight_range": [
+                    0.101,
+                    0.2
+                ],
+                "shipping_cost": 123,
+                "extra_charge": 25
+            },
+            {
+                "weight_range": [
+                    0.201,
+                    0.34
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 29
+            }
+        ]
+    },
+    "4PX Global Express Priority Contain Electricity(UG)": {
+        "Canada": [
+            {
+                "weight_range": [
+                    0,
+                    5
+                ],
+                "shipping_cost": 132,
+                "extra_charge": 43
+            }
+        ]
+    },
+    "4PX Global Express Standard Contain Electricity": {
+        "France": {
+            "weight_range": [
+                0,
+                30
+            ],
+            "first_half_kilogram": 66,
+            "second_half_kilogram": 35
+        }
+    }
+}
