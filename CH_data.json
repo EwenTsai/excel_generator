@@ -222,36 +222,36 @@
         ],
         "Canada": [
             {
-                "weight _range": [
+                "weight_range": [
                     0,
                     0.1
                 ],
-                "shipping _cost": 75,
-                "extra _charge": 27
+                "shipping_cost": 75,
+                "extra_charge": 27
             },
             {
-                "weight _range": [
+                "weight_range": [
                     0.101,
                     0.3
                 ],
-                "shipping _cost": 85,
-                "extra _charge": 26
+                "shipping_cost": 85,
+                "extra_charge": 26
             },
             {
-                "weight _range": [
+                "weight_range": [
                     0.301,
                     0.5
                 ],
-                "shipping _cost": 93,
-                "extra _charge": 26
+                "shipping_cost": 93,
+                "extra_charge": 26
             },
             {
-                "weight _range": [
+                "weight_range": [
                     0.501,
                     30
                 ],
-                "shipping _cost": 97,
-                "extra _charge": 27
+                "shipping_cost": 97,
+                "extra_charge": 27
             }
         ],
         "Australia": [

@@ -40,14 +40,16 @@
         ]
     },
     "4PX Global Express Standard Contain Electricity": {
-        "France": {
-            "weight_range": [
-                0,
-                30
-            ],
-            "first_weight": 66,
-            "continue": 35,
-            "ladder": 0.5
-        }
+        "France": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 66,
+                "continue": 35,
+                "ladder": 0.5
+            }
+        ]
     }
 }
