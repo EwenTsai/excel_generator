@@ -9,6 +9,6 @@ if __name__ == '__main__':
 
     input_data_frame = pd.read_csv('shipping.csv', skiprows=0)
     for index, data in input_data_frame.iterrows():
-        input_data_frame.loc[index, 'CH'] = ch_calculator.calculate(data_dict, data.to_dict())
+        input_data_frame.loc[index, 'CH'] = ch_calculator.calculate_1(data_dict, data.to_dict())
 
     input_data_frame.to_csv('shipping.csv')

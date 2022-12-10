@@ -45,8 +45,9 @@
                 0,
                 30
             ],
-            "first_half_kilogram": 66,
-            "second_half_kilogram": 35
+            "first_weight": 66,
+            "continue": 35,
+            "ladder": 0.5
         }
     }
 }
