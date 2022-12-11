@@ -14,6 +14,8 @@ def match_weight(shipping_list: list, weight: float):
         elif shipping.get('weight') is not None:
             if shipping['weight'] == weight:
                 return shipping
+        elif shipping.get('ladder') is not None:
+            return shipping
     raise Exception("didn't match weight")
 
 
@@ -40,10 +42,13 @@ def calculate(data_dict: dict, input_data: dict):
         if shipping.get('shipping_cost') is not None and shipping.get('extra_charge') is not None:
             return calculate_1(shipping, input_data)
         elif shipping.get('first_weight') is not None and shipping.get('continue') is not None and shipping.get(
-                'ladder') is not None:
+                'ladder') is not None and shipping.get('extra_charge') is None:
             return calculate_2(shipping, input_data)
         elif shipping.get('weight') is not None and shipping.get('shipping_cost') is not None:
             return calculate_3(shipping)
+        elif shipping.get('first_weight') is not None and shipping.get('continue') is not None and shipping.get(
+                'ladder') is not None and shipping.get('extra_charge') is not None:
+            return calculate_4(shipping, input_data)
         else:
             return "this company's country source data is wrong"
     except Exception as ex:
@@ -67,3 +72,12 @@ def calculate_2(shipping: dict, input_data: dict):
 # 重量对应运费算法
 def calculate_3(shipping: dict):
     return shipping['shipping_cost']
+
+
+def calculate_4(shipping: dict, input_data: dict):
+    weight = weight_rounding(input_data['weight'], shipping['ladder'])
+    if weight == shipping['ladder']:
+        return shipping['first_weight'] + shipping['extra_charge']
+    else:
+        return shipping['first_weight'] + shipping['continue'] * (weight / shipping['ladder'] - 1) + \
+            shipping['extra_charge']

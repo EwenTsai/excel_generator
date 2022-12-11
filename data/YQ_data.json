@@ -10,5 +10,15 @@
                 "shipping_cost": 43
             }
         ]
+    },
+    "PH02": {
+        "Philippines-Manila": [
+            {
+                "first_weight": 15,
+                "continue": 6.5,
+                "ladder": 1,
+                "extra_charge": 75
+            }
+        ]
     }
 }
