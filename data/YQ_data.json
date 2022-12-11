@@ -4,6 +4,10 @@
             {
                 "weight": 0.1,
                 "shipping_cost": 32
+            },
+            {
+                "weight": 0.2,
+                "shipping_cost": 43
             }
         ]
     }
