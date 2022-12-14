@@ -222,36 +222,36 @@
         ],
         "Canada": [
             {
-                "weight_range": [
+                "weight _range": [
                     0,
                     0.1
                 ],
-                "shipping_cost": 75,
-                "extra_charge": 27
+                "shipping _cost": 75,
+                "extra _charge": 27
             },
             {
-                "weight_range": [
+                "weight _range": [
                     0.101,
                     0.3
                 ],
-                "shipping_cost": 85,
-                "extra_charge": 26
+                "shipping _cost": 85,
+                "extra _charge": 26
             },
             {
-                "weight_range": [
+                "weight _range": [
                     0.301,
                     0.5
                 ],
-                "shipping_cost": 93,
-                "extra_charge": 26
+                "shipping _cost": 93,
+                "extra _charge": 26
             },
             {
-                "weight_range": [
+                "weight _range": [
                     0.501,
                     30
                 ],
-                "shipping_cost": 97,
-                "extra_charge": 27
+                "shipping _cost": 97,
+                "extra _charge": 27
             }
         ],
         "Australia": [
@@ -332,7 +332,7 @@
                 "extra_charge": 21
             }
         ],
-        "Portugal":[
+        "Portugal": [
             {
                 "weight_range": [
                     0,
@@ -342,7 +342,7 @@
                 "extra_charge": 21
             }
         ],
-        "Finland":[
+        "Finland": [
             {
                 "weight_range": [
                     0,
@@ -359,6 +359,516 @@
                 "shipping_cost": 91,
                 "extra_charge": 30
             }
+        ],
+        "Croatia": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 26
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 97,
+                "extra_charge": 26
+            }
+        ],
+        "Lithuania": [
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 20
+            }
+        ],
+        "Luxembourg": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 77,
+                "extra_charge": 27
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 27
+            }
+        ],
+        "Latvia": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 75,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    10
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 21
+            }
+        ],
+        "Slovenia": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 85,
+                "extra_charge": 27
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    10
+                ],
+                "shipping_cost": 95,
+                "extra_charge": 27
+            }
+        ],
+        "Bulgaria": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 77,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 81,
+                "extra_charge": 21
+            }
+        ],
+        "Romanian": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 69,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 77,
+                "extra_charge": 21
+            }
+        ],
+        "Denmark": [
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "shipping_cost": 75,
+                "extra_charge": 29
+            }
+        ],
+        "Sweden": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 95,
+                "extra_charge": 23
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 103,
+                "extra_charge": 23
+            }
+        ],
+        "Ireland": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 81,
+                "extra_charge": 26
+            }
+        ],
+        "Greece": [
+            {
+                "weight_range": [
+                    0,
+                    1
+                ],
+                "shipping_cost": 83,
+                "extra_charge": 19
+            },
+            {
+                "weight_range": [
+                    1.001,
+                    30
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 19
+            }
+        ],
+        "Switzerland": [
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 133,
+                "extra_charge": 21
+            }
+        ],
+        "Norway": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 119,
+                "extra_charge": 39
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 129,
+                "extra_charge": 36
+            }
+        ],
+        "Estonia": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 73,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    10
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 21
+            }
+        ],
+        "Malta": [
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 139,
+                "extra_charge": 33
+            }
+        ],
+        "Cyprus": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 115,
+                "extra_charge": 31
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 115,
+                "extra_charge": 28
+            }
+        ],
+        "Iceland": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 147,
+                "extra_charge": 36
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 149,
+                "extra_charge": 36
+            }
+        ],
+        "Japan": [
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "First_weight": 53,
+                "continue": 18,
+                "ladder": 0.5
+            }
         ]
+    },
+    "Southeast Asia special line small bag Contain electricity": {
+        "Australia": [
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "shipping_cost": 102,
+                "extra_charge": 27
+            }
+        ],
+        "South Africa": [
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 170,
+                "extra_charge": 29
+            }
+        ],
+        "Brazilian": [
+            {
+                "weight_range": [
+                    0,
+                    0.3
+                ],
+                "shipping_cost": 120,
+                "extra_charge": 32
+            },
+            {
+                "weight_range": [
+                    0.3,
+                    0.5
+                ],
+                "shipping_cost": 120,
+                "extra_charge": 34
+            },
+            {
+                "weight_range": [
+                    0.5,
+                    1.5
+                ],
+                "shipping_cost": 120,
+                "extra_charge": 37
+            },
+            {
+                "weight_range": [
+                    1.5,
+                    5
+                ],
+                "shipping_cost": 125,
+                "extra_charge": 47
+            }
+        ],
+        "Canada": [
+            {
+                "weight_range": [
+                    0,
+                    0.3
+                ],
+                "shipping_cost": 188,
+                "extra_charge": 24
+            },
+            {
+                "weight_range": [
+                    0.3,
+                    0.5
+                ],
+                "shipping_cost": 185,
+                "extra_charge": 25
+            },
+            {
+                "weight_range": [
+                    0.5,
+                    1.5
+                ],
+                "shipping_cost": 182,
+                "extra_charge": 29
+            },
+            {
+                "weight_range": [
+                    1.5,
+                    2
+                ],
+                "shipping_cost": 182,
+                "extra_charge": 39
+            },
+            {
+                "weight_range": [
+                    2,
+                    30
+                ],
+                "shipping_cost": 180,
+                "extra_charge": 48
+            }
+        ],
+        "Mexico": [
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "shipping_cost": 139,
+                "extra_charge": 24
+            }
+        ],
+        "Singapore": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 75,
+                "extra_charge": 18
+            }
+        ],
+        "Malaysia": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 60,
+                "extra_charge": 18
+            }
+        ],
+        "Thailand": [
+            {
+                "weight_range": [
+                    0,
+                    25
+                ],
+                "shipping_cost": 65,
+                "extra_charge": 10
+            }
+        ],
+        "Vietnam": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 45,
+                "extra_charge": 12
+            }
+        ],
+        "the Philippines":[
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "shipping_cost": 90,
+                "extra_charge": 27
+            }
+        ],
+        "Chile": [
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 150,
+                "extra_charge": 29
+            },
+            {
+                "weight_range": [
+                    0.5,
+                    20
+                ],
+                "shipping_cost": 150,
+                "extra_charge": 29
+            }
+        ],
+        "Colombia": [
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "shipping_cost": 155,
+                "extra_charge": 42
+            }
+        ],
+        "Turkey": [
+            {
+                "weight_range": [
+                    0,
+                    0.2
+                ],
+                "shipping_cost": 125,
+                "extra_charge": 19
+            },
+            {
+                "weight_range": [
+                    0.2,
+                    20
+                ],
+                "shipping_cost": 120,
+                "extra_charge": 19
+            }
+        ],
+        "South Korea": [
+            {
+                "weight_range": [
+                    0,
+                    0.2
+                ],
+                "shipping_cost": 65,
+                "extra_charge": 19.5
+            },
+            {
+                "weight_range": [
+                    0.2,
+                    20
+                ],
+                "shipping_cost": 65,
+                "extra_charge": 22
+            }
+        ],
+        "new Zealand": [
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "shipping_cost": 122,
+                "extra_charge": 19
+            }
+        ]
+
     }
 }
