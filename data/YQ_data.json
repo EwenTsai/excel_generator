@@ -278,6 +278,521 @@
                 "shipping_cost": 546,
                 "ladder": 0.5
             }
+        ],
+        "Cambodia": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 226,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 267,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 303,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 327,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 362,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 386,
+                "ladder": 0.5
+            }
+        ],
+        "Laos": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 226,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 267,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 303,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 327,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 362,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 386,
+                "ladder": 0.5
+            }
+        ],
+        "Vietnam":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 153,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 185,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 210,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 224,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 250,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 226,
+                "ladder": 0.5
+            }
+        ],
+        "Canada":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 208,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 240,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 295,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 329,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 384,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 415,
+                "ladder": 0.5
+            }
+        ],        
+        "Mexico":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 208,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 240,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 295,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 329,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 384,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 415,
+                "ladder": 0.5
+            }
+        ],
+        "India":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 217,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 240,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 271,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 293,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 323,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 311,
+                "ladder": 0.5
+            }
+        ],
+        "Japan":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 123,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 149,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 161,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 185,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 180,
+                "ladder": 0.5
+            }
+        ],
+        "Malaysia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 91,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 94,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 109,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 114,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 130,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 127,
+                "ladder": 0.5
+            }
+        ],
+        "Thailand":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 98,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 98,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 113,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 119,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 135,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 130,
+                "ladder": 0.5
+            }
+        ],
+        "the Philippines":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 113,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 122,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 141,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 149,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 168,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 163,
+                "ladder": 0.5
+            }
+        ],
+        "Indonesia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 155,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 193,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 224,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 245,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 276,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 272,
+                "ladder": 0.5
+            }
+        ],
+        "Australia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 241,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 309,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 365,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 404,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 460,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 506,
+                "ladder": 0.5
+            }
+        ],
+        "new Zealand":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 241,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 309,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 365,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 404,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 460,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 506,
+                "ladder": 0.5
+            }
+        ],
+        "Taiwan":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 99,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 95,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 111,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 116,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 131,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 131,
+                "ladder": 0.5
+            }
+        ],
+        "Singapore":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 100,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 99,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 116,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 121,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 138,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 132,
+                "ladder": 0.5
+            }
+        ],
+        "South Korea":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 116,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.0,
+                "shipping_cost": 116,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 134,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.0,
+                "shipping_cost": 142,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 160,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3.0,
+                "shipping_cost": 154,
+                "ladder": 0.5
+            }
         ]
+    },
+    "UH09":{
+        
     }
 }
