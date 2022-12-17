@@ -38,7 +38,7 @@
                 "shipping_cost": 111
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 117
             },
             {
@@ -78,7 +78,7 @@
                 "shipping_cost": 180
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 186
             },
             {
@@ -118,12 +118,12 @@
                 "shipping_cost": 261
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 267
             }
         ]
     },
-    "JP04":{
+    "JP04": {
         "Japan": [
             {
                 "first_weight": 55,
@@ -133,7 +133,7 @@
             }
         ]
     },
-    "JP03":{
+    "JP03": {
         "Japan": [
             {
                 "first_weight": 48,
@@ -170,7 +170,7 @@
         ]
     },
     "AU01": {
-        "Australia":[
+        "Australia": [
             {
                 "weight_range": [
                     0.1,
@@ -182,7 +182,7 @@
             }
         ]
     },
-    "FH05":{
+    "FH05": {
         "American": [
             {
                 "weight": 0.5,
@@ -190,7 +190,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 201,
                 "ladder": 0.5
             },
@@ -200,7 +200,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 277,
                 "ladder": 0.5
             },
@@ -210,19 +210,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 351,
                 "ladder": 0.5
             }
         ],
-        "Macao":[
+        "Macao": [
             {
                 "weight": 0.5,
                 "shipping_cost": 165,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 199,
                 "ladder": 0.5
             },
@@ -232,7 +232,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 242,
                 "ladder": 0.5
             },
@@ -242,19 +242,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 284,
                 "ladder": 0.5
             }
         ],
-        "Brunei":[
+        "Brunei": [
             {
                 "weight": 0.5,
                 "shipping_cost": 283,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 337,
                 "ladder": 0.5
             },
@@ -264,7 +264,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 440,
                 "ladder": 0.5
             },
@@ -274,7 +274,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 546,
                 "ladder": 0.5
             }
@@ -286,7 +286,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 267,
                 "ladder": 0.5
             },
@@ -296,7 +296,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 327,
                 "ladder": 0.5
             },
@@ -306,7 +306,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 386,
                 "ladder": 0.5
             }
@@ -318,7 +318,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 267,
                 "ladder": 0.5
             },
@@ -328,7 +328,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 327,
                 "ladder": 0.5
             },
@@ -338,19 +338,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 386,
                 "ladder": 0.5
             }
         ],
-        "Vietnam":[
+        "Vietnam": [
             {
                 "weight": 0.5,
                 "shipping_cost": 153,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 185,
                 "ladder": 0.5
             },
@@ -360,7 +360,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 224,
                 "ladder": 0.5
             },
@@ -370,19 +370,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 226,
                 "ladder": 0.5
             }
         ],
-        "Canada":[
+        "Canada": [
             {
                 "weight": 0.5,
                 "shipping_cost": 208,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 240,
                 "ladder": 0.5
             },
@@ -392,7 +392,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 329,
                 "ladder": 0.5
             },
@@ -402,51 +402,51 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
-                "shipping_cost": 415,
-                "ladder": 0.5
-            }
-        ],        
-        "Mexico":[
-            {
-                "weight": 0.5,
-                "shipping_cost": 208,
-                "ladder": 0.5
-            },
-            {
-                "weight": 1.0,
-                "shipping_cost": 240,
-                "ladder": 0.5
-            },
-            {
-                "weight": 1.5,
-                "shipping_cost": 295,
-                "ladder": 0.5
-            },
-            {
-                "weight": 2.0,
-                "shipping_cost": 329,
-                "ladder": 0.5
-            },
-            {
-                "weight": 2.5,
-                "shipping_cost": 384,
-                "ladder": 0.5
-            },
-            {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 415,
                 "ladder": 0.5
             }
         ],
-        "India":[
+        "Mexico": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 208,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 240,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 295,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 329,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 384,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 415,
+                "ladder": 0.5
+            }
+        ],
+        "India": [
             {
                 "weight": 0.5,
                 "shipping_cost": 217,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 240,
                 "ladder": 0.5
             },
@@ -456,7 +456,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 293,
                 "ladder": 0.5
             },
@@ -466,19 +466,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 311,
                 "ladder": 0.5
             }
         ],
-        "Japan":[
+        "Japan": [
             {
                 "weight": 0.5,
                 "shipping_cost": 123,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 124,
                 "ladder": 0.5
             },
@@ -488,7 +488,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 161,
                 "ladder": 0.5
             },
@@ -498,19 +498,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 180,
                 "ladder": 0.5
             }
         ],
-        "Malaysia":[
+        "Malaysia": [
             {
                 "weight": 0.5,
                 "shipping_cost": 91,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 94,
                 "ladder": 0.5
             },
@@ -520,7 +520,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 114,
                 "ladder": 0.5
             },
@@ -530,19 +530,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 127,
                 "ladder": 0.5
             }
         ],
-        "Thailand":[
+        "Thailand": [
             {
                 "weight": 0.5,
                 "shipping_cost": 98,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 98,
                 "ladder": 0.5
             },
@@ -552,7 +552,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 119,
                 "ladder": 0.5
             },
@@ -562,19 +562,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 130,
                 "ladder": 0.5
             }
         ],
-        "the Philippines":[
+        "the Philippines": [
             {
                 "weight": 0.5,
                 "shipping_cost": 113,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 122,
                 "ladder": 0.5
             },
@@ -584,7 +584,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 149,
                 "ladder": 0.5
             },
@@ -594,19 +594,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 163,
                 "ladder": 0.5
             }
         ],
-        "Indonesia":[
+        "Indonesia": [
             {
                 "weight": 0.5,
                 "shipping_cost": 155,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 193,
                 "ladder": 0.5
             },
@@ -616,7 +616,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 245,
                 "ladder": 0.5
             },
@@ -626,19 +626,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 272,
                 "ladder": 0.5
             }
         ],
-        "Australia":[
+        "Australia": [
             {
                 "weight": 0.5,
                 "shipping_cost": 241,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 309,
                 "ladder": 0.5
             },
@@ -648,7 +648,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 404,
                 "ladder": 0.5
             },
@@ -658,19 +658,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 506,
                 "ladder": 0.5
             }
         ],
-        "new Zealand":[
+        "new Zealand": [
             {
                 "weight": 0.5,
                 "shipping_cost": 241,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 309,
                 "ladder": 0.5
             },
@@ -680,7 +680,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 404,
                 "ladder": 0.5
             },
@@ -690,19 +690,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 506,
                 "ladder": 0.5
             }
         ],
-        "Taiwan":[
+        "Taiwan": [
             {
                 "weight": 0.5,
                 "shipping_cost": 99,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 95,
                 "ladder": 0.5
             },
@@ -712,7 +712,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 116,
                 "ladder": 0.5
             },
@@ -722,19 +722,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 131,
                 "ladder": 0.5
             }
         ],
-        "Singapore":[
+        "Singapore": [
             {
                 "weight": 0.5,
                 "shipping_cost": 100,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 99,
                 "ladder": 0.5
             },
@@ -744,7 +744,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 121,
                 "ladder": 0.5
             },
@@ -754,19 +754,19 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 132,
                 "ladder": 0.5
             }
         ],
-        "South Korea":[
+        "South Korea": [
             {
                 "weight": 0.5,
                 "shipping_cost": 116,
                 "ladder": 0.5
             },
             {
-                "weight": 1.0,
+                "weight": 1,
                 "shipping_cost": 116,
                 "ladder": 0.5
             },
@@ -776,7 +776,7 @@
                 "ladder": 0.5
             },
             {
-                "weight": 2.0,
+                "weight": 2,
                 "shipping_cost": 142,
                 "ladder": 0.5
             },
@@ -786,13 +786,817 @@
                 "ladder": 0.5
             },
             {
-                "weight": 3.0,
+                "weight": 3,
                 "shipping_cost": 154,
                 "ladder": 0.5
             }
         ]
     },
-    "UH09":{
+    "UH09": {
+        "Brunei": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 161,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 204,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 247,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 289,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 333,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 376,
+                "ladder": 0.5
+            }
+        ],
+        "Japan": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 155,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 187,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 219,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 250,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 283,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 316,
+                "ladder": 0.5
+            }
+        ],
+        "Australia": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 290,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 358,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 427,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 495,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 565,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 634,
+                "ladder": 0.5
+            }
+        ],
+        "new Zealand": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 290,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 358,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 427,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 495,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 565,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 634,
+                "ladder": 0.5
+            }
+        ],
+        "Indonesia": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 290,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 358,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 427,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 495,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 565,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 634,
+                "ladder": 0.5
+            }
+        ],
+        "Canada": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 264,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 320,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 328,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 437,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 493,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 552,
+                "ladder": 0.5
+            }
+        ],
+        "Mexico": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 264,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 320,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 328,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 437,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 493,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 552,
+                "ladder": 0.5
+            }
+        ],
+        "Puerto Rico":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 264,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 320,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 328,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 437,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 493,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 552,
+                "ladder": 0.5
+            }
+        ],
+        "America":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 259,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 314,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 371,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 428,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ]
+    },
+    "UH08":{
+        "Singapore":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "Malaysia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "Thailand":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "the Philippines":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "Vietnam":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "Taiwan":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "South Korea":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 124,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 150,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 201,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 483,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 541,
+                "ladder": 0.5
+            }
+        ],
+        "Brunei":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 137,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 176,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 251,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 253,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 292,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 331,
+                "ladder": 0.5
+            }
+        ],
+        "Japan":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 165,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 199,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 233,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 266,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 300,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 336,
+                "ladder": 0.5
+            }
+        ],
+        "Australia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 286,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 354,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 423,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 491,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 560,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 628,
+                "ladder": 0.5
+            }
+        ],
+        "new Zealand":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 286,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 354,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 423,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 491,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 560,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 628,
+                "ladder": 0.5
+            }
+        ],
+        "Indonesia":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 286,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 354,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 423,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 491,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 560,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 628,
+                "ladder": 0.5
+            }
+        ],
+        "Canada": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 372,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 444,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 381,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 399,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 417,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 435,
+                "ladder": 0.5
+            }
+        ],
+        "Mexico": [
+            {
+                "weight": 0.5,
+                "shipping_cost": 372,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 444,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 381,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 399,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 417,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 435,
+                "ladder": 0.5
+            }
+        ],
+        "Puerto Rico":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 372,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 444,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 381,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 399,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 417,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 435,
+                "ladder": 0.5
+            }
+        ],
+        "America":[
+            {
+                "weight": 0.5,
+                "shipping_cost": 368,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1,
+                "shipping_cost": 440,
+                "ladder": 0.5
+            },
+            {
+                "weight": 1.5,
+                "shipping_cost": 377,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2,
+                "shipping_cost": 395,
+                "ladder": 0.5
+            },
+            {
+                "weight": 2.5,
+                "shipping_cost": 413,
+                "ladder": 0.5
+            },
+            {
+                "weight": 3,
+                "shipping_cost": 431,
+                "ladder": 0.5
+            }
+        ]
+    },
+    "DH03":{
         
     }
 }
