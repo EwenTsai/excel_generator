@@ -24,6 +24,38 @@
                 ],
                 "shipping_cost": 140,
                 "extra_charge": 29
+            },
+            {
+                "weight_range": [
+                    0.341,
+                    0.45
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 29
+            },
+            {
+                "weight_range": [
+                    0.451,
+                    0.7
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 61
+            },
+            {
+                "weight_range": [
+                    0.701,
+                    1
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 61
+            },
+            {
+                "weight_range": [
+                    1.001,
+                    2
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 61
             }
         ]
     },
@@ -49,6 +81,117 @@
                 "first_weight": 66,
                 "continue": 35,
                 "ladder": 0.5
+            }
+        ],
+        "Germany":[
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "first_weight": 50,
+                "continue": 28.5,
+                "ladder": 0.5
+            }
+        ],
+        "America":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 99,
+                "continue": 46,
+                "ladder": 0.5
+            }
+        ],
+        "new Zealand":[
+            {
+                "weight_range": [
+                    0,
+                    25
+                ],
+                "first_weight": 103,
+                "continue": 17,
+                "ladder": 1
+            }
+        ],
+        "United Kingdom":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost":87,
+                "extra_charge": 18
+            },
+            {
+                "weight_range": [
+                    2.001,
+                    15
+                ],
+                "shipping_cost": 73,
+                "extra_charge": 18
+            },
+            {
+                "weight_range": [
+                    15.001,
+                    30
+                ],
+                "shipping_cost": 78,
+                "extra_charge": 18
+            }
+        ],
+        "Singapore":[
+            {
+                "weight_range": [
+                    0,
+                    70
+                ],
+                "first_weight": 37,
+                "continue": 20,
+                "ladder": 0.5
+            }
+        ],
+        "Malaysia - West Malaysia":[
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "first_weight": 40,
+                "continue": 22,
+                "ladder": 0.5
+            }
+        ],
+        "Malaysia - East Malaysia":[
+            {
+                "weight_range": [
+                    0,
+                    10
+                ],
+                "first_weight": 44,
+                "continue": 28,
+                "ladder": 0.5
+            }
+        ],
+        "Israel":[
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "first_weight": 72,
+                "continue": 56,
+                "ladder": 0.5
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    10
+                ],
+                "shipping_cost": 79,
+                "extra_charge": 62
             }
         ]
     }
