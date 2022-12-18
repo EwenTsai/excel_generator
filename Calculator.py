@@ -26,7 +26,7 @@ def match_country(data_dict: dict, country_ch: str):
     with open("data/country_data.json", 'r') as data:
         country_data_dict = json.load(data)
 
-    if country_data_dict[country_ch] is not None:
+    if country_data_dict.get(country_ch) is not None:
         country_en = country_data_dict[country_ch]
 
         for channel in data_dict:
@@ -83,6 +83,7 @@ def calculate_3(shipping: dict):
     return shipping['shipping_cost']
 
 
+# 首重加续重加额外费用算法
 def calculate_4(shipping: dict, input_data: dict):
     weight = weight_rounding(input_data['weight'], shipping['ladder'])
     if weight == shipping['ladder']:
