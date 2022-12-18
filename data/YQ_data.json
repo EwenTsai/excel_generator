@@ -1,6 +1,6 @@
 {
     "USP9": {
-        "American": [
+        "America": [
             {
                 "weight": 0.1,
                 "shipping_cost": 32
@@ -183,7 +183,7 @@
         ]
     },
     "FH05": {
-        "American": [
+        "America": [
             {
                 "weight": 0.5,
                 "shipping_cost": 176,

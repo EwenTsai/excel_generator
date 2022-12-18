@@ -28,7 +28,7 @@ if __name__ == '__main__':
     for country in country_set:
         client = Translate()
         text = client.translate(country)
-        country_dict[country] = text.translatedText
+        country_dict[text.translatedText] = country
 
     with open("country_data.json", "w") as outfile:
         outfile.write(json.dumps(country_dict, ensure_ascii=False))
