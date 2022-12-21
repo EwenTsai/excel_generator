@@ -13,7 +13,7 @@ if __name__ == '__main__':
     with open("data/YQ_data.json", 'r') as data:
         YQ_data_dict = json.load(data)
 
-    input_data_frame = pd.read_csv('shipping.csv', encoding="utf-8")
+    input_data_frame = pd.read_csv('shipping.csv', engine='python')
     for index, data in input_data_frame.iterrows():
         CH_price = Calculator.calculate(CH_data_dict, data.to_dict())
         YQ_price = Calculator.calculate(YQ_data_dict, data.to_dict())
