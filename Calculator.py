@@ -5,7 +5,7 @@ def get_lowest(price_list: list):
     for price in price_list:
         if not type(price) == float:
             if not type(price) == int:
-                return None
+                return ""
     return min(price_list)
 
 
