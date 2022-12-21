@@ -1,6 +1,6 @@
 {
     "PY": {
-        "American": [
+        "America": [
             {
                 "weight_range": [
                     0,
@@ -20,14 +20,6 @@
             {
                 "weight_range": [
                     0.201,
-                    0.34
-                ],
-                "shipping_cost": 140,
-                "extra_charge": 29
-            },
-            {
-                "weight_range": [
-                    0.341,
                     0.45
                 ],
                 "shipping_cost": 140,
@@ -36,22 +28,6 @@
             {
                 "weight_range": [
                     0.451,
-                    0.7
-                ],
-                "shipping_cost": 140,
-                "extra_charge": 61
-            },
-            {
-                "weight_range": [
-                    0.701,
-                    1
-                ],
-                "shipping_cost": 140,
-                "extra_charge": 61
-            },
-            {
-                "weight_range": [
-                    1.001,
                     2
                 ],
                 "shipping_cost": 140,
@@ -111,9 +87,8 @@
                     0,
                     25
                 ],
-                "first_weight": 103,
-                "continue": 17,
-                "ladder": 1
+                "shipping_cost": 103,
+                "extra_charge": 17
             }
         ],
         "United Kingdom":[
@@ -122,7 +97,7 @@
                     0,
                     2
                 ],
-                "shipping_cost":87,
+                "shipping_cost": 87,
                 "extra_charge": 18
             },
             {
@@ -132,21 +107,13 @@
                 ],
                 "shipping_cost": 73,
                 "extra_charge": 18
-            },
-            {
-                "weight_range": [
-                    15.001,
-                    30
-                ],
-                "shipping_cost": 78,
-                "extra_charge": 18
             }
         ],
         "Singapore":[
             {
                 "weight_range": [
                     0,
-                    70
+                    10
                 ],
                 "first_weight": 37,
                 "continue": 20,
@@ -175,23 +142,330 @@
                 "ladder": 0.5
             }
         ],
+        "Canada":[
+            {
+                "weight_range": [
+                    0,
+                    0.3
+                ],
+                "shipping_cost": 142,
+                "extra_charge": 26.5
+            },
+            {
+                "weight_range": [
+                    0.301,
+                    0.5
+                ],
+                "shipping_cost": 138.5,
+                "extra_charge": 27.5
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    2
+                ],
+                "shipping_cost": 134,
+                "extra_charge": 32.5
+            },
+            {
+                "weight_range": [
+                    2.001,
+                    30
+                ],
+                "shipping_cost": 134,
+                "extra_charge": 32
+            }
+        ],
+        "Australia - Region 1":[
+            {
+                "weight_range": [
+                    0,
+                    22
+                ],
+                "shipping_cost": 81,
+                "extra_charge": 22
+            }
+        ],
+        "Australia - Region 2":[
+            {
+                "weight_range": [
+                    0,
+                    22
+                ],
+                "shipping_cost": 83,
+                "extra_charge": 24
+            }
+        ],
+        "Australia - Region 3":[
+            {
+                "weight_range": [
+                    0,
+                    22
+                ],
+                "shipping_cost": 84,
+                "extra_charge": 34
+            }
+        ],
+        "Australia - Region 4":[
+            {
+                "weight_range": [
+                    0,
+                    22
+                ],
+                "shipping_cost": 106,
+                "extra_charge": 45
+            }
+        ],
         "Israel":[
             {
                 "weight_range": [
                     0,
                     0.5
                 ],
-                "first_weight": 72,
-                "continue": 56,
-                "ladder": 0.5
-            },
+                "shipping_cost": 72,
+                "extra_charge": 56
+            }
+        ],
+        "Philippines - Metro Manila":[
             {
                 "weight_range": [
-                    0.501,
+                    0,
+                    30
+                ],
+                "shipping_cost": 90,
+                "extra_charge": 7
+            }
+        ],
+        "Philippines - other areas":[
+            {
+                "weight_range": [
+                    0,
                     10
                 ],
-                "shipping_cost": 79,
-                "extra_charge": 62
+                "shipping_cost": 90,
+                "extra_charge": 9
+            }
+        ],
+        "Japan":[
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "first_weight": 51,
+                "continue": 16,
+                "ladder": 0.5
+            }
+        ],
+        "Belgium":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 58,
+                "continue": 28,
+                "ladder": 0.5
+            }
+        ],
+        "Netherlands":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 65,
+                "continue": 29,
+                "ladder": 0.5
+            }
+        ],
+        "Denmark":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 68,
+                "continue": 25.8,
+                "ladder": 0.5
+            }
+        ],
+        "Sweden":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "first_weight": 87,
+                "continue": 29,
+                "ladder": 0.5
+            }
+        ],
+        "Bulgaria":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "first_weight": 81,
+                "continue": 29,
+                "ladder": 0.5
+            }
+        ],
+        "United Arab Emirates":[
+            {
+                "weight_range": [
+                    0,
+                    30
+                ],
+                "first_weight": 49,
+                "continue": 29,
+                "ladder": 0.5
+            }
+        ],
+        "nigeria":[
+            {
+                "weight_range": [
+                    0,
+                    20
+                ],
+                "first_weight": 54,
+                "continue": 45,
+                "ladder": 0.5
+            }
+        ]
+    },
+    "4PX Unipost Standard Registered - General Cargo QC":{
+        "America":[
+            {
+                "weight_range": [
+                    0,
+                    0.1
+                ],
+                "shipping_cost": 99,
+                "extra_charge": 22
+            }
+        ],
+        "United Kingdom":[
+            {
+                "weight_range": [
+                    0,
+                    5
+                ],
+                "shipping_cost": 69,
+                "extra_charge": 22
+            }
+        ],
+        "France":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 75,
+                "extra_charge": 22
+            }
+        ],
+        "Netherlands":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 94,
+                "extra_charge": 20.5
+            }
+        ],
+        "Poland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 88,
+                "extra_charge": 14
+            }
+        ],
+        "Switzerland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 140,
+                "extra_charge": 18
+            }
+        ],
+        "Japan":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 53,
+                "extra_charge": 28
+            }
+        ]
+    },
+    "4PX Unipost Standard Registered - Live (OH)":{
+        "France":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 82,
+                "extra_charge": 18
+            }
+        ],
+        "Sweden":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 94,
+                "extra_charge": 20
+            }
+        ],
+        "Belgium":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 82,
+                "extra_charge": 23
+            }
+        ],
+        "Denmark":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 103,
+                "extra_charge": 25.5
+            }
+        ],
+        "Luxembourg":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 87,
+                "extra_charge": 18.5
+            }
+        ],
+        "Netherlands":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 87,
+                "extra_charge": 18.5
             }
         ]
     }

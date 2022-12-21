@@ -1,3 +1,6 @@
+import json
+
+
 def get_lowest(price_list: list):
     for price in price_list:
         if not type(price) == float:
@@ -19,10 +22,16 @@ def match_weight(shipping_list: list, weight: float):
     raise Exception("didn't match weight")
 
 
-def match_country(data_dict: dict, country: str):
-    for channel in data_dict:
-        if data_dict[channel].get(country) is not None:
-            return data_dict[channel].get(country)
+def match_country(data_dict: dict, country_ch: str):
+    with open("data/country_data.json", 'r') as data:
+        country_data_dict = json.load(data)
+
+    if country_data_dict.get(country_ch) is not None:
+        country_en = country_data_dict[country_ch]
+
+        for channel in data_dict:
+            if data_dict[channel].get(country_en) is not None:
+                return data_dict[channel].get(country_en)
     raise Exception("didn't match country")
 
 
@@ -74,6 +83,7 @@ def calculate_3(shipping: dict):
     return shipping['shipping_cost']
 
 
+# 首重加续重加额外费用算法
 def calculate_4(shipping: dict, input_data: dict):
     weight = weight_rounding(input_data['weight'], shipping['ladder'])
     if weight == shipping['ladder']:

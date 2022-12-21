@@ -18,9 +18,9 @@ if __name__ == '__main__':
         CH_price = Calculator.calculate(CH_data_dict, data.to_dict())
         YQ_price = Calculator.calculate(YQ_data_dict, data.to_dict())
         _4PX_price = Calculator.calculate(_4PX_data_dict, data.to_dict())
-        input_data_frame.loc[index, 'CH'] = CH_price
-        input_data_frame.loc[index, 'YQ'] = YQ_price
+        input_data_frame.loc[index, '春红'] = CH_price
+        input_data_frame.loc[index, '悦琪'] = YQ_price
         input_data_frame.loc[index, '4PX'] = _4PX_price
-        input_data_frame.loc[index, 'Lowest'] = Calculator.get_lowest(price_list=[CH_price, YQ_price, _4PX_price])
+        input_data_frame.loc[index, '最低价格'] = Calculator.get_lowest(price_list=[CH_price, YQ_price, _4PX_price])
 
     input_data_frame.to_csv('shipping.csv', index=False)
