@@ -23,7 +23,7 @@ def match_weight(shipping_list: list, weight: float):
 
 
 def match_country(data_dict: dict, country_ch: str):
-    with open("data/country_data.json", 'r') as data:
+    with open("data/country_data.json", 'r', encoding='utf-8') as data:
         country_data_dict = json.load(data)
 
     if country_data_dict.get(country_ch) is not None:
