@@ -464,8 +464,142 @@
                     0,
                     2
                 ],
-                "shipping_cost": 87,
-                "extra_charge": 18.5
+                "shipping_cost": 95,
+                "extra_charge": 20.5
+            }
+        ],
+        "Portugal":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 100,
+                "extra_charge": 18
+            }
+        ],
+        "Poland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 14
+            }
+        ],
+        "United Kingdom":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 83,
+                "extra_charge": 18
+            }
+        ],
+        "Germany":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 84,
+                "extra_charge": 20
+            }
+        ],
+        "Italy":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 68,
+                "extra_charge": 23
+            }
+        ],
+        "United States":[
+            {
+                "weight_range": [
+                    0,
+                    0.1
+                ],
+                "shipping_cost": 123,
+                "extra_charge": 18
+            },
+            {
+                "weight_range": [
+                    0.101,
+                    0.2
+                ],
+                "shipping_cost": 121,
+                "extra_charge": 18
+            },
+            {
+                "weight_range": [
+                    0.201,
+                    0.7
+                ],
+                "shipping_cost": 118,
+                "extra_charge": 18
+            },
+            {
+                "weight_range": [
+                    0.701,
+                    3
+                ],
+                "shipping_cost": 118,
+                "extra_charge": 9
+            }
+        ],
+        "Spain":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 74,
+                "extra_charge": 18
+            }
+        ],
+        "Australia":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 74,
+                "extra_charge": 18
+            }
+        ],
+        "Mexico":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 106,
+                "extra_charge": 20
+            }
+        ],
+        "Switzerland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 141,
+                "extra_charge": 18
+            }
+        ],
+        "Colombia":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 136,
+                "extra_charge": 20
             }
         ]
     }
