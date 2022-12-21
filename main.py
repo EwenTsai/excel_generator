@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     input_data_list = list()
     header = '国家,重量,春红,悦琪,4PX,最低价格\n'
-    with open('shipping.csv', 'r', encoding="utf-8") as file:
+    with open('shipping.csv', 'r') as file:
         for line in file:
             if not line == header:
                 data_arr = line.replace("\n", "").split(",")
