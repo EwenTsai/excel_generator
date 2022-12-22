@@ -601,6 +601,234 @@
                 "shipping_cost": 136,
                 "extra_charge": 20
             }
+        ],
+        "South Korea":[
+            {
+                "weight_range": [
+                    0,
+                    1
+                ],
+                "shipping_cost": 8,
+                "extra_charge": 22
+            },
+            {
+                "weight_range": [
+                    1.001,
+                    2
+                ],
+                "shipping_cost": 8,
+                "extra_charge": 22
+            }
+        ],
+        "Austria":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 90,
+                "extra_charge": 24
+            }
+        ],
+        "Czech Republic":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 94,
+                "extra_charge": 17
+            }
+        ],
+        "Ireland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 103,
+                "extra_charge": 29
+            }
+        ],
+        "Lithuania":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 103,
+                "extra_charge": 16
+            }
+        ],
+        "slovenia":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 91,
+                "extra_charge": 20
+            }
+        ],
+        "Slovak Republic":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 96,
+                "extra_charge": 16
+            }
+        ],
+        "Brazil":[
+            {
+                "weight_range": [
+                    0,
+                    0.5
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 30
+            },
+            {
+                "weight_range": [
+                    0.501,
+                    0.5
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 33
+            },
+            {
+                "weight_range": [
+                    1.001,
+                    1.5
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 37
+            },
+            {
+                "weight_range": [
+                    1.501,
+                    2
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 41
+            },
+            {
+                "weight_range": [
+                    2.001,
+                    2.5
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 44
+            },
+            {
+                "weight_range": [
+                    2.501,
+                    3
+                ],
+                "shipping_cost": 86,
+                "extra_charge": 48
+            }
+        ],
+        "Chile":[
+            {
+                "weight_range": [
+                    0,
+                    0.7
+                ],
+                "shipping_cost": 109,
+                "extra_charge": 21
+            },
+            {
+                "weight_range": [
+                    0.701,
+                    2
+                ],
+                "shipping_cost": 104,
+                "extra_charge": 23.5
+            }
+        ],
+        "Israel":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 85,
+                "extra_charge": 23
+            }
+        ]
+    },
+    "4PX Unipost EU Standard Registered - Live (SI)":{
+        "France":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 77,
+                "extra_charge": 25
+            }
+        ],
+        "Italy":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 88,
+                "extra_charge": 26
+            }
+        ],
+        "Spain":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 74,
+                "extra_charge": 18
+            }
+        ],
+        "Poland":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 89,
+                "extra_charge": 14
+            }
+        ],
+        "Austria":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 90,
+                "extra_charge": 24
+            }
+        ],
+        "Germany":[
+            {
+                "weight_range": [
+                    0,
+                    3
+                ],
+                "shipping_cost": 84,
+                "extra_charge": 20
+            }
+        ],
+        "Belgium":[
+            {
+                "weight_range": [
+                    0,
+                    2
+                ],
+                "shipping_cost": 71,
+                "extra_charge": 20
+            }
         ]
     }
 }
