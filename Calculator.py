@@ -28,6 +28,7 @@ def match_weight(shipping_list: list, weight: float):
         if shipping.get('weight') is not None:
             if shipping.get('weight') > weight:
                 return shipping
+    print(shipping_list)
     raise Exception("didn't match weight")
 
 
