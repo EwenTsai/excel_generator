@@ -246,7 +246,7 @@
                 "extra_charge": 26
             },
             {
-                "weight _range": [
+                "weight_range": [
                     0.501,
                     30
                 ],
