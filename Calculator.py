@@ -1,12 +1,16 @@
 import json
 
 
+def round_price(price: float):
+    return round(price, 2)
+
+
 def get_lowest(price_list: list):
+    compare_price_list = list()
     for price in price_list:
-        if not type(price) == float:
-            if not type(price) == int:
-                return ""
-    return min(price_list)
+        if type(price) == float:
+            compare_price_list.append(price)
+    return min(compare_price_list)
 
 
 def match_weight(shipping_list: list, weight: float):
@@ -19,6 +23,11 @@ def match_weight(shipping_list: list, weight: float):
                 return shipping
         elif shipping.get('ladder') is not None:
             return shipping
+
+    for shipping in shipping_list:
+        if shipping.get('weight') is not None:
+            if shipping.get('weight') > weight:
+                return shipping
     raise Exception("didn't match weight")
 
 
@@ -49,17 +58,18 @@ def calculate(data_dict: dict, input_data: dict):
         shipping_list = match_country(data_dict, input_data['country'])
         shipping = match_weight(shipping_list, input_data['weight'])
         if shipping.get('shipping_cost') is not None and shipping.get('extra_charge') is not None:
-            return calculate_1(shipping, input_data)
+            price = calculate_1(shipping, input_data)
         elif shipping.get('first_weight') is not None and shipping.get('continue') is not None and shipping.get(
                 'ladder') is not None and shipping.get('extra_charge') is None:
-            return calculate_2(shipping, input_data)
+            price = calculate_2(shipping, input_data)
         elif shipping.get('weight') is not None and shipping.get('shipping_cost') is not None:
-            return calculate_3(shipping)
+            price = calculate_3(shipping)
         elif shipping.get('first_weight') is not None and shipping.get('continue') is not None and shipping.get(
                 'ladder') is not None and shipping.get('extra_charge') is not None:
-            return calculate_4(shipping, input_data)
+            price = calculate_4(shipping, input_data)
         else:
-            return "this company's country source data is wrong"
+            raise Exception("this company's country source data is wrong")
+        return round_price(price)
     except Exception as ex:
         return ex
 

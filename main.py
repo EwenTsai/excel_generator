@@ -24,7 +24,7 @@ if __name__ == '__main__':
                 data_dict['weight'] = float(data_arr[1])
                 input_data_list.append(data_dict)
 
-    output_file_data = str(header)
+    output_file_data = header
     for input_data in input_data_list:
         CH_price = Calculator.calculate(CH_data_dict, input_data)
         YQ_price = Calculator.calculate(YQ_data_dict, input_data)
