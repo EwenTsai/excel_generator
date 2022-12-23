@@ -72,6 +72,7 @@ def calculate(data_dict: dict, input_data: dict):
             raise Exception("this company's country source data is wrong")
         return round_price(price)
     except Exception as ex:
+        print(input_data)
         return ex
 
 
